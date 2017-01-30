@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 LANGUAGES = (
     ('en', 'English'),
     ('de', 'Deutsch'),
-    ('ru', 'Russian'),
+    ('ru', 'Russiann'),
 )
 
 SITE_ID = 1
