@@ -51,8 +51,10 @@ LANGUAGES = (
     ('ru', 'Russian')
 )
 
-TEMPLATE_DIRS = [os.path.abspath('./templates')]
-
+TEMPLATE_DIRS = [
+    os.path.abspath('./templates'),
+    os.path.abspath('./questionnaire/templates'),
+]
 
 
 MIDDLEWARE_CLASSES = (
