@@ -60,12 +60,12 @@ add_type('number', 'Number [input]')
 def parse_range(checkdict):
     "Given a checkdict for a range widget return the min and max string values."
 
-    Range = checkdict.get('range', '1-5')
+    Range = checkdict.get('range', '1-10')
 
     try:
         rmin, rmax = Range.split('-', 1)
     except ValueError:
-        rmin, rmax = '1', '5'
+        rmin, rmax = '1', '10'
 
     return rmin, rmax
 
